@@ -1,6 +1,15 @@
+[![Elixbacen version](https://img.shields.io/hexpm/v/elixbacen.svg)](https://hex.pm/packages/elixbacen)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/elixbacen/)
+[![Hex.pm](https://img.shields.io/hexpm/dt/elixbacen.svg)](https://hex.pm/packages/)
+
 # Elixbacen
 
-**TODO: Add description**
+Elixbacen is a package that helps you to get informations from claim's list of BACEN (current quarter).
+
+## Notes
+Version 0.1.0:
+
+- Added features to get top 03 information from claim's list of BACEN.
 
 ## Installation
 
@@ -15,7 +24,21 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/elixbacen](https://hexdocs.pm/elixbacen).
+## Features
+```elixir
+get_top03_bancos()
+
+get_top03_demaisbancos()
+
+get_top03_reclamacoes()
+
+get_top03_administradoras_consorcio()
+```
+
+## Documentation
+
+Documentation can be found at [https://hexdocs.pm/elixbacen](https://hexdocs.pm/elixbacen).
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
