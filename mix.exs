@@ -8,7 +8,7 @@ defmodule Elixbacen.MixProject do
       app: :elixbacen,
       version: @version,
       elixir: "~> 1.12",
-      description: "Library to get information about web pages via scraper",
+      description: "Library to get information about from claim's list of BACEN",
       source_url: "https://github.com/joao2391/elixbacen",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
